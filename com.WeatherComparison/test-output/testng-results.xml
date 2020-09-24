@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9477" started-at="2020-09-25T00:51:30 IST" finished-at="2020-09-25T00:51:39 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9477" started-at="2020-09-25T00:51:30 IST" finished-at="2020-09-25T00:51:39 IST">
+      <class name="com.WeatherTest.com.WeatherComparison.TC01_ValidationOfWeather">
+        <test-method status="PASS" signature="readDataFromExcel()[pri:0, instance:com.WeatherTest.com.WeatherComparison.TC01_ValidationOfWeather@480bdb19]" name="readDataFromExcel" duration-ms="512" started-at="2020-09-25T00:51:30 IST" finished-at="2020-09-25T00:51:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFromExcel -->
+        <test-method status="PASS" signature="getApiResponse()[pri:0, instance:com.WeatherTest.com.WeatherComparison.TC01_ValidationOfWeather@480bdb19]" name="getApiResponse" duration-ms="8739" started-at="2020-09-25T00:51:31 IST" depends-on-methods="com.WeatherTest.com.WeatherComparison.TC01_ValidationOfWeather.readDataFromExcel" finished-at="2020-09-25T00:51:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiResponse -->
+      </class> <!-- com.WeatherTest.com.WeatherComparison.TC01_ValidationOfWeather -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
